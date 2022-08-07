@@ -1,10 +1,16 @@
 <template>
-  <q-page class="flex flex-center">
-    <img
-      alt="Quasar logo"
-      src="~assets/quasar-logo-vertical.svg"
-      style="width: 200px; height: 200px"
-    >
+  <q-page class="q-pa-md">
+
+    <q-card
+      v-for="n in 10"
+      class="my-card q-mt-sm">
+      <q-img src="https://cdn.quasar.dev/img/parallax2.jpg">
+        <div class="absolute-bottom text-subtitle2 text-center">
+          Title
+        </div>
+      </q-img>
+    </q-card>
+
   </q-page>
 </template>
 
