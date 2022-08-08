@@ -8,7 +8,10 @@
         indicator-color="transparent"
         active-color="primary"
       >
-        <q-tab name="home" icon="home" />
+        <q-tab
+          name="computer"
+          icon="computer"
+        />
         <q-tab name="mails" icon="mail" />
         <q-tab name="alarms" icon="alarm" />
         <q-tab name="movies" icon="movie" />
