@@ -28,7 +28,7 @@
     rounded
     color="green"
     label="COMECAR AGORA"
-    to="/home"
+    to="/computer"
     />
   </div>
 
