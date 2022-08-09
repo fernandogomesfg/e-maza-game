@@ -12,7 +12,8 @@ const routes = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '/computer', component: () => import('src/pages/ComputerPage.vue') },
-      { path: '/profile', component: () => import('src/pages/ProfilePage.vue') }
+      { path: '/profile', component: () => import('src/pages/ProfilePage.vue') },
+      { path: '/ranking', component: () => import('src/pages/RankingPage.vue') }
     ]
   },
 
