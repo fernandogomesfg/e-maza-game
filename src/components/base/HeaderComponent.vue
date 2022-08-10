@@ -1,34 +1,45 @@
 <template>
   <q-header class="bg-white text-primary">
         <q-toolbar>
-          <q-btn
+          <!--<q-btn
+            @click="emit('toggleDrawer')"
             flat
             dense
             icon="menu"
             class="q-mr-sm"
-          />
+          />-->
+          <q-btn
+            flat
+            dense
+            class="q-mr-sm"
+            color="transparent"
+          >
+            <img src="images/header-menu.png" alt="">
+          </q-btn>
 
 
           <q-toolbar-title>
-            <div class="text-center">
+            <div class="text-center q-pt-sm">
               <div
                 class="text-grey-9 text-bold"
                 style="font-size: 12pt">
-                Caloiro
+                Calouro
               </div>
 
               <div>
                 <q-linear-progress
-                  rounded size="17px"
+                  rounded
+                  size="17px"
                   :value="progress"
-                  color="warning"
-                  class="q-mt-sm"
+                  color="primary"
+                  class="q-mt-xs"
                 />
               </div>
 
               <div
                 style="font-size: : 20pt">
-                300 pts <span class="text-grey-9 text-bold"> / 1000 pts</span>
+                <span class="text-bold">300 pts</span>
+                <span class="text-grey-9 text-bold"> / 1000 pts</span>
               </div>
             </div>
           </q-toolbar-title>
@@ -63,3 +74,9 @@ export default defineComponent({
 })
 
 </script>
+
+<style scoped>
+  .rounded-borders{
+    border-radius: 20px;
+  }
+</style>
