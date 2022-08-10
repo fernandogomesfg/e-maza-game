@@ -13,7 +13,8 @@ const routes = [
     children: [
       { path: '/computer', component: () => import('src/pages/ComputerPage.vue') },
       { path: '/profile', component: () => import('src/pages/ProfilePage.vue') },
-      { path: '/ranking', component: () => import('src/pages/RankingPage.vue') }
+      { path: '/ranking', component: () => import('src/pages/RankingPage.vue') },
+      { path: '/star', component: () => import('src/pages/StarPage.vue') }
     ]
   },
 
