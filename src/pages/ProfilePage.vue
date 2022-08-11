@@ -63,10 +63,10 @@
       Estatisticas
     </div>
     <div class="q-pa-md q-gutter-sm">
-      <q-btn align="around" class="btn-fixed-width full-width" color="primary" label="5 - Dia da Ofensiva" icon="home" />
-      <q-btn align="around" class="btn-fixed-width full-width" color="primary" label="100 - Total de XP" icon="home" />
-      <q-btn align="around" class="btn-fixed-width full-width" color="primary" label="76 - Total de moedas" icon="home" />
-      <q-btn align="around" class="btn-fixed-width full-width" color="primary" label="0 - Podios" icon="home" />
+      <q-btn align="around" class="btn-fixed-width full-width" color="grey-6" label="5 - Dia da Ofensiva" />
+      <q-btn align="around" class="btn-fixed-width full-width" color="grey-6" label="100 - Total de XP" />
+      <q-btn align="around" class="btn-fixed-width full-width" color="grey-6" label="76 - Total de moedas" />
+      <q-btn align="around" class="btn-fixed-width full-width" color="grey-6" label="0 - Podios"/>
     </div>
 
     <div class="q-pa-md q-gutter-sm ">
@@ -75,8 +75,8 @@
         icon-right="send"
         rounded
         class="full-width"
-        color="white"
-        text-color="black"
+        color="grey-1"
+        text-color="primary"
         label="Convidar Amigos e Familia"
       />
     </div>
