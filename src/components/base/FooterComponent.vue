@@ -8,31 +8,54 @@
         indicator-color="transparent"
         active-color="primary"
       >
-        <q-tab
-          name="computer"
-          icon="computer"
-        />
 
-        <q-tab
-          name="pie_chart"
-          icon="pie_chart"
-        />
-
-        <q-tab
-          name="emoji_events"
-          icon="emoji_events"
-        />
-
-        <q-tab
-          name="star"
-          icon="star"
-        />
-        
-        <q-tab
-          name="person"
-          icon="person"
+        <q-tab>
+          <q-route-tab
+            to="/computer"
+            exact
+            name="computer"
+            icon="computer"
           />
+        </q-tab>
+
+        <q-tab>
+          <q-route-tab
+            to="/#"
+            exact
+            name="pie_chart"
+            icon="pie_chart"
+          />
+        </q-tab>
+
+        <q-tab>
+          <q-route-tab
+            to="/ranking"
+            exact
+            name="emoji_events"
+            icon="emoji_events"
+          />
+        </q-tab>
+
+        <q-tab>
+          <q-route-tab
+            to="/star"
+            exact
+            name="star"
+            icon="star"
+          />
+        </q-tab>
+
+        <q-tab>
+          <q-route-tab
+            to="/profile"
+            exact
+            name="person"
+            icon="person"
+          />
+        </q-tab>
       </q-tabs>
+
+
     </div>
   </q-footer>
 </template>
