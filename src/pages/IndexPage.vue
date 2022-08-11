@@ -3,10 +3,7 @@
     <q-card class="my-card">
       <q-card-section
         horizontal>
-        <q-img
-         height="400px"
-          src="https://cdn.quasar.dev/img/parallax1.jpg"
-        />
+        <q-img src="images/mascote.png" width="650px" />
       </q-card-section>
     </q-card>
   </div>
