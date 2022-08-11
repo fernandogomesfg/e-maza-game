@@ -13,98 +13,72 @@
       </div>
   </div>
 
-  <div class="q-pa-md">
-    <q-carousel
-      arrows
-      animated
-      v-model="slide"
-      height="320px"
-      infinite
-    >
-      <q-carousel-slide name="first" img-src="https://cdn.quasar.dev/img/mountains.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h6">Quero progredir</div>
-          <div class="text-subtitle1">Ganhar mais pontos</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h6">Sou Maza</div>
-          <div class="text-subtitle1">eMazaGame</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h6">Sou nerd</div>
-          <div class="text-subtitle1">Vou conquistar mais pontos</div>
-        </div>
-      </q-carousel-slide>
-    </q-carousel>
+  <div class="q-mt-sm">
 
-    <div>
-      <div class="row justify-end">
-        <q-btn
-          flat
-          color="primary"
-          label="Ver todos"
-        />
+    <q-scroll-area
+      style="height: 300px; margin: -15px;"
+    >
+      <div class="row no-wrap">
+        <div v-for="n in 5" :key="n" style="width: 300px; height: 300px;" class="q-pa-sm">
+          <q-card class="full-height full-width" style="border-radius: 20px;">
+            <q-img src="images/main-person-image.png" style="height: 100%; width: 100%;">
+              <div class="full-height" style="background: rgba(0, 0, 0, 0.3);">
+                <div
+                  class="text-h6"
+                  style="font-size: 30pt; line-height: 42px"
+
+                >
+                Quer Progredir</div>
+                <div class="text-subtitle2 q-mt-sm" style="font-weight: 100;">Ganhar mais pontos</div>
+              </div>
+            </q-img>
+          </q-card>
+        </div>
       </div>
-    </div>
-
-    <div class="row justify-first">
-      <q-btn
-        flat
-        color="primary"
-        label="Jogos Populares"
-      />
-    </div>
-    <div class="q-pa-md q-gutter-sm">
-      <q-btn
-        push
-        color="grey-9"
-        text-color="white"
-        label="Nivel 1"
-      />
-
-      <q-btn
-        push
-        color="white"
-        text-color="grey-9"
-        label="Nivel 2"
-      />
-
-      <q-btn
-        push
-        color="white"
-        text-color="grey-9"
-        label="Nivel 3"
-      />
-    </div>
-
-    <q-carousel
-      arrows
-      animated
-      v-model="slide"
-      height="100px"
-      infinite
-    >
-      <q-carousel-slide name="first" img-src="https://cdn.quasar.dev/img/mountains.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h6">Quero progredir</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="second" img-src="https://cdn.quasar.dev/img/parallax1.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h6">Sou Maza</div>
-        </div>
-      </q-carousel-slide>
-      <q-carousel-slide name="third" img-src="https://cdn.quasar.dev/img/parallax2.jpg">
-        <div class="absolute-bottom custom-caption">
-          <div class="text-h6">Sou nerd</div>
-        </div>
-      </q-carousel-slide>
-    </q-carousel>
+    </q-scroll-area>
   </div>
+
+  <div class="col-12 q-pl-xs q-mt-lg">
+    <div class="row">
+      <div class="col-6">
+        <div style="font-size: 12pt;" class="text-bold">
+          Jogos Populares
+        </div>
+      </div>
+      <div class="col-6"></div>
+    </div>
+  </div>
+
+
+
+
+
+    <q-scroll-area
+      style="height: 150px; margin: -15px;"
+    >
+      <div class="row no-wrap">
+        <div v-for="n in 5" :key="n" style="width: 300px; height: 150px;" class="q-pa-sm">
+          <q-card class="full-height full-width" style="border-radius: 20px;">
+            <q-img src="images/main-person-image.png" style="height: 100%; width: 100%;">
+              <div class="full-height" style="background: rgba(0, 0, 0, 0.3);">
+                <div
+                  class="text-h6"
+                  style="font-size: 30pt; line-height: 42px"
+
+                >
+                Matematica
+
+                </div>
+
+              </div>
+            </q-img>
+          </q-card>
+        </div>
+      </div>
+    </q-scroll-area>
+
+
+
 </template>
 
 <script>
