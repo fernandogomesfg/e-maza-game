@@ -12,10 +12,26 @@
           name="computer"
           icon="computer"
         />
-        <q-tab name="mails" icon="pie_chart" />
-        <q-tab name="alarms" icon="emoji_events" />
-        <q-tab name="movies" icon="star" />
-        <q-tab name="movies" icon="person" />
+
+        <q-tab
+          name="pie_chart"
+          icon="pie_chart"
+        />
+
+        <q-tab
+          name="emoji_events"
+          icon="emoji_events"
+        />
+
+        <q-tab
+          name="star"
+          icon="star"
+        />
+        
+        <q-tab
+          name="person"
+          icon="person"
+          />
       </q-tabs>
     </div>
   </q-footer>
