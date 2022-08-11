@@ -20,7 +20,7 @@
 
         <q-tab>
           <q-route-tab
-            to="/#"
+            to="/piechart"
             exact
             name="pie_chart"
             icon="pie_chart"
