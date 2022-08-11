@@ -14,7 +14,8 @@ const routes = [
       { path: '/computer', component: () => import('src/pages/ComputerPage.vue') },
       { path: '/profile', component: () => import('src/pages/ProfilePage.vue') },
       { path: '/ranking', component: () => import('src/pages/RankingPage.vue') },
-      { path: '/star', component: () => import('src/pages/StarPage.vue') }
+      { path: '/star', component: () => import('src/pages/StarPage.vue') },
+      { path: '/piechart', component: () => import('src/pages/PaginaEmConstrucao.vue') }
     ]
   },
 
